@@ -1,0 +1,7 @@
+from sys import argv
+script, filename = argv
+
+txt = open(filename)
+print txt.read()
+
+raw_input("you know the txt value?")
